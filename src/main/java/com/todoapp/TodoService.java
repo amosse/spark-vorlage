@@ -9,9 +9,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by shekhargulati on 09/06/14.
- */
+ 
 public class TodoService {
 
     private final DB db;

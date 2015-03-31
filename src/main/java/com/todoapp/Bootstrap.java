@@ -6,9 +6,8 @@ import static spark.Spark.setIpAddress;
 import static spark.Spark.setPort;
 import static spark.SparkBase.staticFileLocation;
 
-/**
- * Created by shekhargulati on 09/06/14.
- */
+
+
 public class Bootstrap {
     private static final String IP_ADDRESS = System.getenv("OPENSHIFT_DIY_IP") != null ? System.getenv("OPENSHIFT_DIY_IP") : "localhost";
     private static final int PORT = System.getenv("OPENSHIFT_DIY_IP") != null ? Integer.parseInt(System.getenv("OPENSHIFT_DIY_IP")) : 8080;
